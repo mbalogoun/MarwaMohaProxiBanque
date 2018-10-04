@@ -1,0 +1,33 @@
+body{
+	text-align:center;
+}
+table {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ width:80%;
+ }
+td { 
+ border-width:1px; 
+ width:20%;
+ }
+ h3{
+ display-text: Uppercase;
+ font-family: Verdana;
+ }
+ button {
+  margin-top: 40px;
+    height: 30px;
+    width: 125px;
+    margin-right: 41px;
+    color: #fff;
+    background-color: #73B1B1;
+    margin-left: 50px;
+}
+input{
+	    margin-top: 15px;
+    	margin-left: 50px;
+}
+/* label{ */
+/* 	text-align:left; */
+/* } */
