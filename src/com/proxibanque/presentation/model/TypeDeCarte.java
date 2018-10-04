@@ -1,5 +1,5 @@
 package com.proxibanque.presentation.model;
 
-public abstract class CompteBancaire {
+public enum TypeDeCarte {
 
 }
