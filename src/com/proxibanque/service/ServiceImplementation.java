@@ -5,13 +5,12 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
+import com.proxibanque.persistance.MemoryClientDAO;
+import com.proxibanque.persistance.MemoryConseillerDAO;
 import com.proxibanque.presentation.model.Client;
 import com.proxibanque.presentation.model.CompteBancaire;
 import com.proxibanque.presentation.model.Conseiller;
 import com.proxibanque.presentation.model.TypeDeClient;
-
-import persistance.MemoryClientDAO;
-import persistance.MemoryConseillerDAO;
 
 /**
  * @author Adminl
