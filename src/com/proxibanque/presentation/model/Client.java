@@ -15,17 +15,35 @@ public class Client {
 	private String adresse;
 	private String codePostal;
 	private String ville;
-	private Integer telephone;
+	private String telephone;
 	private String typeClient;
 	private Integer idClient;
 	private Integer idConseillerPerso;
+	private String emailClient;
 	
+	public String getEmailClient() {
+		return emailClient;
+	}
+
+	public void setEmailClient(String emailClient) {
+		this.emailClient = emailClient;
+	}
+
+	public Client(String emailClient) {
+		super();
+		this.emailClient = emailClient;
+	}
 	private List<CompteBancaire> comptesClient = new ArrayList<>();
 	private static int NbrMaxComptes = 2;
 		
 	
 	
 	
+	public Client() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public Client(String nom, String prenom, TypeDeClient param) {
 		super();
 		this.nom = nom;
@@ -80,11 +98,11 @@ public class Client {
 		this.ville = ville;
 	}
 
-	public Integer getTelephone() {
+	public String getTelephone() {
 		return telephone;
 	}
 
-	public void setTelephone(Integer telephone) {
+	public void setTelephone(String telephone) {
 		this.telephone = telephone;
 	}
 

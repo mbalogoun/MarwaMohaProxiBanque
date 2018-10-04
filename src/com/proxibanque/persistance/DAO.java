@@ -2,6 +2,10 @@ package com.proxibanque.persistance;
 
 import java.util.List;
 
+import com.proxibanque.presentation.model.Client;
+
+
+
 /**
  * @author Adminl
  *INTERFACE DAO : c'est l'interface qui va nous permettre de gerer les fonctions de BDD de notre systeme.
@@ -12,12 +16,13 @@ import java.util.List;
  */
 public interface DAO<T> {
 
-	void save(T t);
+	int save(T t);
 
 	T findById(Integer id);
 
-	void deleteById(Integer id);
+	int deleteById(Integer id);
 
 	List<T> getAll();
+	int update(Client c);
 
 }

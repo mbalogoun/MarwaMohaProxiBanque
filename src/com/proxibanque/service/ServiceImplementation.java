@@ -23,7 +23,7 @@ import com.proxibanque.presentation.model.TypeDeClient;
 public class ServiceImplementation implements ClientService, ConseillerService {
 
 	private MemoryClientDAO daoClient = new MemoryClientDAO();
-	private MemoryConseillerDAO daoConseiller = new MemoryConseillerDAO();
+//	private MemoryConseillerDAO daoConseiller = new MemoryConseillerDAO();
 
 	@Override
 	public void addClient(Client c) {
@@ -44,14 +44,15 @@ public class ServiceImplementation implements ClientService, ConseillerService {
 
 	@Override
 	public void addConseiller(Conseiller c) {
-		if (c != null)
-			daoConseiller.save(c);
+//		if (c != null)
+//			daoConseiller.save(c);
 
 	}
 
 	@Override
 	public Conseiller findConseillerById(Integer id) {
-		return daoConseiller.findById(id);
+		return null;
+//		return daoConseiller.findById(id);
 	}
 
 	@Override
@@ -61,7 +62,8 @@ public class ServiceImplementation implements ClientService, ConseillerService {
 
 	@Override
 	public List<Conseiller> getAllConseiller() {
-		return daoConseiller.getAll();
+		return null;
+//				daoConseiller.getAll();
 
 	}
 
