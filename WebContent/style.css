@@ -2,7 +2,7 @@ body{
 	text-align:center;
 }
 table {
- border-width:1px; 
+ border-width:2px; 
  border-style:solid; 
  border-color:black;
  width:80%;
@@ -16,7 +16,7 @@ td {
  font-family: Verdana;
  }
  button {
-  margin-top: 40px;
+  	margin-top: 40px;
     height: 30px;
     width: 125px;
     margin-right: 41px;

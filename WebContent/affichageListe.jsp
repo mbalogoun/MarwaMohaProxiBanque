@@ -22,8 +22,8 @@
 	<c:forEach var="client" items="${maliste}">
 		<td>"${client.nom}"</td>
 		<td>"${client.prenom}"</td>
-		<td><a href="MaServletEditer">Editer</a>"</td>
-		<td><a href="MaServletComptes">Listes Comptes</a>"</td>
+		<td><a href="MaServletEditer">Editer</a></td>
+		<td><a href="MaServletComptes">Listes Comptes</a></td>
 		<td><a href="MaServletVirement">Virement</a>"</td>
 	    </c:forEach>
 	</tr>
